@@ -109,7 +109,7 @@ $(function () {
   }
 
   TransferVariants.prototype._search_transfer_variants = function () {
-    return this.build_select(Spree.url(Spree.routes.variants_api), 'product_name_or_sku_cont')
+    return this.build_select(Spree.url(Spree.routes.variants_api), 'search_by_product_name_or_sku')
   }
 
   TransferVariants.prototype._search_transfer_stock_items = function () {
